@@ -1,0 +1,238 @@
+html{
+    height:200%;
+}
+
+body{
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+div{
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    overflow: auto;
+    vertical-align: baseline;
+}   
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    background: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    text-decoration: none;
+}
+
+i{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    outline: none;
+    border: 0;
+}
+
+.header_outer{
+    background: #121517;
+    width: 100%;
+    min-width: 783px;
+}
+.header_inner{
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 52px;
+}
+.header_inner button{
+    border:none;
+    
+    color: white;
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.header_logo{
+    margin-left: 12px;
+}
+.latest_item i{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.header_sex{
+    margin-left: 12px;
+    width: 160px;
+}
+.header_options{
+    margin-right: 6px;
+}
+.header_options button{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#font_bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+#latest_font{
+    font-size: 14px;
+}
+
+.space_sex{
+    margin-left: 24px;
+}
+.left_border{
+    border-left: white solid 1px;
+}
+.flex_margin{
+    margin-left: 12px;
+}
+.latest_item{
+    width: 620px;
+}
+
+.nav{
+    position: fixed;
+
+    width: 100%;
+
+    background-color: rgb(241, 243, 246);
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_containerWrap{
+    margin: 0 auto;
+
+    max-width: 1100px;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 56px;
+
+    margin-left: 12px;
+}
+
+.nav_btn{
+    margin: 16px 36px 16px 0;
+    font-size: 14px;
+}
+
+.nav_searchBox{
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.search_tagWrap{
+    margin: 5px;
+    font-size: 12px;
+    
+    box-sizing: border-box;
+}
+
+.search_tagBtn{
+    height: 30px;
+    width: 43px;
+}
+
+.search_btn{
+    font-size: 12px;
+}
+
+/*밥도 잘 먹지 모달~ 니가 생각날 까봐~*/
+.modal{
+    display: block;
+
+    position: fixed;
+    z-index: 1000;
+    
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.modal_component{
+    font-size: 30px;
+    color: #212529;
+    line-height: 1.5;
+    border: 1px solid white;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+    height: 400px;
+
+    background-color: white;
+    border-radius: 8px;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.modal_component_header{
+    display: flex;
+    width: 56px;
+    height: 56px;
+
+    align-items: center;
+    justify-content: center;
+    margin: 62px auto 0;
+
+    border-radius: 50%;
+}
+
+.modal_component_body{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.modal_btnWrap{
+    margin-top: 44px;
+    text-align: center;
+    justify-content: center;
+}
+
+.modal_btn{
+    width: 151px;
+    height: 52px;
+
+    padding: 0;
+    margin: 0 12px;
+    border: 1px solid rgba(73, 73, 73, 0.178);
+
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 300;
+
+    cursor: pointer;
+}
+.modal_btn.man:hover{
+    border-color: rgb(0, 17, 255);
+}
+
+.modal_btn.woman:hover{
+    border-color: rgb(255, 0, 0);
+}
