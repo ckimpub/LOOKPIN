@@ -28,6 +28,9 @@ button{
     border: 0;
     
     text-decoration: none;
+
+    color: inherit;
+    font: inherit;
 }
 
 i{
@@ -137,8 +140,13 @@ input{
 
 .nav_searchBox{
     display: flex;
-    border: 1px solid black;
+    width: 398px;
+    height: 38px;
+    border: 1px solid rgb(222, 226, 230);
     background-color: white;
+    align-items: center;
+
+    overflow: hidden;
 }
 
 .search_tagWrap{
@@ -148,13 +156,68 @@ input{
     box-sizing: border-box;
 }
 
-.search_tagBtn{
+.search_tagBtn_item{
     height: 30px;
     width: 43px;
+    background-color: white;
+
+    color: rgb(66, 133, 244);
+    border: 1px solid rgb(66, 133, 244);
+    border-radius: 2px;
+}
+
+.search_tagBtn_store{
+    height: 30px;
+    width: 54px;
+    background-color: rgb(241, 243, 246);
 }
 
 .search_btn{
     font-size: 12px;
+}
+
+.search_inputWrap{
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 3px;
+    margin-right: 12px;
+    
+    flex: 1 1;
+    height: 30px;
+
+    overflow: hidden;
+}
+
+.search_input{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+    margin-right: 12px;
+}
+
+.search_btnWrap{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 32px;
+    margin: 4px;
+
+    border-radius: 3px;
+}
+
+.search_btn{
+    background-color: rgb(66, 133, 244);
+
+    padding: 0;
+    color: white;
+
+    cursor: pointer;
+    font-size: 12px;
+
+    width: 100%;
+    height: 30px;
 }
 
 /*밥도 잘 먹지 모달~ 니가 생각날 까봐~*/
