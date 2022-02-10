@@ -11,7 +11,9 @@ body{
 div{
     padding: 0;
     font-family: "Noto Sans KR", sans-serif;
-    overflow: auto;
+    
+    
+    
     vertical-align: baseline;
 }   
 
@@ -27,7 +29,7 @@ button{
     padding: 0;
     border: 0;
     
-    text-decoration: none;
+    text-decoration: none;  
 
     color: inherit;
     font: inherit;
@@ -41,6 +43,11 @@ i{
 input{
     outline: none;
     border: 0;
+}
+
+.header_nav{
+    position: fixed;
+    width: 100%;
 }
 
 .header_outer{
@@ -58,6 +65,7 @@ input{
     margin: 0 auto;
     height: 52px;
 }
+
 .header_inner button{
     border:none;
     
@@ -86,6 +94,25 @@ input{
     padding-right: 4px;
 }
 
+main{
+    margin-left: 115px;
+    padding-top: 20px;
+}
+.banner{
+    width: 680px;
+    float: left;
+}
+.banner img{
+    width: 100%;
+}
+.popular{
+    margin-left: 20px;
+    float:left;
+}
+.popular li{
+    list-style-type: style;
+}
+
 #font_bold{
     font-weight: bold;
     font-size: 20px;
@@ -108,7 +135,6 @@ input{
 }
 
 .nav{
-    position: fixed;
 
     width: 100%;
 
@@ -220,6 +246,45 @@ input{
     height: 30px;
 }
 
+.root{
+    width:1100px;
+    min-width: 1100px;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding-top: 128px;
+}
+.root aside{
+    float: left;
+    padding-left: 12px;
+    cursor: pointer;
+}
+.root aside ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.category{
+    margin-bottom: 36px;
+}
+.category *{
+    margin-bottom: 12px;
+}
+.category_name{
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+}
+.category_content li{
+    font-size: 12px;
+    color: gray;
+    height: 18px;
+}
+.category_content li:hover{
+    color:black;
+    font-weight: bold;
+}
+
 /*밥도 잘 먹지 모달~ 니가 생각날 까봐~*/
 .modal{
     display: block;
@@ -241,6 +306,7 @@ input{
     color: #212529;
     line-height: 1.5;
     border: 1px solid white;
+
 
     position: relative;
     top: 50%;
