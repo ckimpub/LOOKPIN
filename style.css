@@ -425,3 +425,147 @@ main{
 .modal_btn.woman:hover{
     border-color: rgb(255, 0, 0);
 }
+
+/* 상품랭킹 CSS */
+.tag{
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+}
+
+.item_ranking{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.more_search{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4285f4;
+}
+
+.item_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_container{
+    width: 180px;
+    margin-bottom: 80px;
+}
+
+.item_image{
+    display: block;
+    position: relative;
+    height: 210px;
+    z-index: -1;
+}
+.item_photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.item_pin_button{
+    position: absolute;
+    height: 40px;
+    cursor: pointer;
+    top: 80%;
+    bottom: 0;
+    left: 75%;
+}
+
+.item_info_wrapper{
+    padding-left: 0px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.company_name{
+    font-size: 12px;
+    font-weight: 450;
+    color: gray;
+}
+
+.item_name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.item_wrapper{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.item_price{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.item_delay{
+    display: inline;
+    font-size: 12px;
+    padding: 0 4px;
+}
+
+.grade{
+    font-size: 14px;
+    margin-right: 3px;
+}
+.grade.red{
+    color: #f2616b;
+}
+.grade.gray{
+    color: gray;
+}
+
+.item_category{
+    height: 45px;
+    display: flex;
+    font-size: 12px;
+}
+.item_category button{
+    color: black;
+
+    /* border-bottom: 2px solid #4285f4; */
+    height: 100%;
+
+    cursor: pointer;
+}
+.item_category button:hover{
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
+    font-weight: 700;
+}
+.item_category_name{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.coordi_card_container{
+    height: 379px;
+    width: 270px;
+    margin-bottom: 40px;
+}
+
+footer{
+    margin: auto 61.5px;
+    font-size: 12px;
+}
+
+.jujeoljujeol{
+    border: 1px solid rgb(248, 248, 249);
+
+    padding-left: 34px;
+
+    display: flex;
+}
+
+.jujeol{
+
+}

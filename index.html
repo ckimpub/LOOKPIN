@@ -6,12 +6,13 @@
     <title>룩핀 | LOOKPIN</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e21810c481.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <script src="function.js"></script>
 </head>
 
 <body>
-    
+
     <!-- <div class="modal">
         <div class="modal_component">
             <div class="modal_component_header">
@@ -55,14 +56,18 @@
             <div class="nav_containerWrap">
                 <div class="nav_container">
                     <div class="nav_content">
-                        <a href="" class="nav_btn">상품랭킹</a><a href="" class="nav_btn">신상품</a><!--
-                        --><a href="" class="nav_btn">코디</a><!--
-                        --><a href="" class="nav_btn">스토어</a><!--
+                        <a href="" class="nav_btn">상품랭킹</a><a href="" class="nav_btn">신상품</a>
+                        <!--
+                        --><a href="" class="nav_btn">코디</a>
+                        <!--
+                        --><a href="" class="nav_btn">스토어</a>
+                        <!--
                         --><a href="" class="nav_btn">이벤트</a>
                     </div>
                     <div class="nav_searchBox">
                         <div class="search_tagWrap">
-                            <button class="search_tagBtn_item" type="button">상품</button><!--
+                            <button class="search_tagBtn_item" type="button">상품</button>
+                            <!--
                             --><button class="search_tagBtn_store" type="button">스토어</button>
                         </div>
                         <div class="search_inputWrap">
@@ -312,7 +317,7 @@
             <div class="banner_container">
                 <section>
                     <article class="banner">
-                            <img src="banner_1.jpg" alt="">
+                        <img src="banner_1.jpg" alt="">
                     </article>
                     <article class="popular">
                         <div class="popular_search">
@@ -335,69 +340,550 @@
                     </article>
                 </section>
             </div>
-            <div style="border: green 2px solid;">
-                <!-- container outer / 상품랭킹 아우터 --> 1
-                <div style="border: red 2px solid">
-                    <!-- container inner / 상품랭킹 이너 --> 1
-                    <div style="border: orange 2px solid; font-size: 20px; font-weight: 500;">
+            <div class>
+                <div class>
+                    <!--상품랭킹-->
+                    <div class="item_ranking">
                         <span>상품랭킹</span>
+                        <a href=""><span class="more_search">더보기 ></span></a>
                     </div>
-                    <div style="border: aquamarine 2px solid">
-                        <!-- 상품진열대 -->
-                        <div style="border: blue 2px solid; display: flex; justify-content: space-between;">
+                    <div class>
+                        <div class="flex item_row">
                             <!-- 상품진열대 1행 -->
-                            <div style="border: black 1px solid; width: 180px;">
+                            <div class="item_container">
                                 <!-- 아이템 1번 컨테이너 -->
-                                <a href="" style="display: block; position: relative; height: 210px; z-index: -1;">
-                                    <img style="width: 100%; height: 100%; border-radius: 10px;" src="item_1.jpg" alt="">
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
                                     <div>
                                     </div>
-                                    <button style="position: absolute; height: 40px; cursor: pointer; top: 80%; bottom: 0; left: 75%;"><img src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg" alt=""></button>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
                                 </a>
-                                <ul style="padding-left: 0px; margin: 12px 0">
+                                <ul class="item_info_wrapper">
                                     <a href="">
-                                        <li style="font-size: 12px; font-weight: 450; color: gray;">
-                                           유아굿
+                                        <li class="company_name">
+                                            유아굿
                                         </li>
                                     </a>
                                     <a href="">
-                                        <li style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 14px;">
+                                        <li class="item_name">
                                             (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
                                         </li>
-                                        <div style="display: flex; justify-content: space-between;">
-                                            <li style="font-size: 14px; font-weight: bold;">
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
                                                 16,800원
                                             </li>
                                             <li>
-                                                <div style="border: gray 1px solid; display: inline; font-size: 12px;">
+                                                <div class="item_delay">
                                                     배송지연
                                                 </div>
                                             </li>
                                         </div>
-                                        <li style="display: flex;">
-                                            <div style="color: #f2616b; font-size: 14px; margin-right: 3px;">
+                                        <li class="tag flex">
+                                            <div class="grade red">
                                                 ★
                                             </div>
-                                            <div style="color:#f2616b; font-size: 14px; margin-right: 3px;">
+                                            <div class="grade red">
                                                 4.7
                                             </div>
-                                            <div style="color: gray; font-size: 14px; margin-right: 3px;">
+                                            <div class="grade gray">
                                                 (510명 평가)
                                             </div>
                                         </li>
                                     </a>
                                 </ul>
                             </div>
-                            
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
                         </div>
-                        <div style="border: blue 2px solid">
-                            상품진열대 2행
+                        <div class="flex item_row">
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="item_container">
+                                <!-- 아이템 1번 컨테이너 -->
+                                <a href="" class="item_image">
+                                    <img class="item_photo" src="item_1.jpg" alt="">
+                                    <div>
+                                    </div>
+                                    <button class="item_pin_button"><img
+                                            src="https://www.lookpin.co.kr/static/media/btn-pin-round-off-30.c4e3e129.svg"
+                                            alt=""></button>
+                                </a>
+                                <ul class="item_info_wrapper">
+                                    <a href="">
+                                        <li class="company_name">
+                                            유아굿
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="item_name">
+                                            (당일출고) [1+1] 덤블 워싱 레이어드 반팔티
+                                        </li>
+                                        <div class="tag flex item_wrapper">
+                                            <li class="item_price">
+                                                16,800원
+                                            </li>
+                                            <li>
+                                                <div class="item_delay">
+                                                    배송지연
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <li class="tag flex">
+                                            <div class="grade red">
+                                                ★
+                                            </div>
+                                            <div class="grade red">
+                                                4.7
+                                            </div>
+                                            <div class="grade gray">
+                                                (510명 평가)
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class>
+                    <div class="item_ranking">
+                        <span> 인기코디</span>
+                        <a href=""><span class="more_search">더보기 ></span></a>
+                    </div>
+                    <div class="item_category" >
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>전체</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>데일리</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>훈남</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>캐쥬얼</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>커플</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>댄디</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>트랜드</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>시크</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>스트릿</button>
+                            </a>
+                        </div>
+                        <div class="item_category_name">
+                            <a href="">
+                                <button>빈티지</button>
+                            </a>
+                        </div>
+                    </div>
+                    <hr style="margin: 0; margin-bottom: 24px;">
+                    <div class="flex" style="background: beige;">
+                        <div class="coordi_card_container">
+                            <div class="coordi_card_image">
+                                
+                            </div>
+                            <div class="coordi_card_info">
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
     </div>
+    <footer>
+        <div class="jujeoljujeol">
+            <div class="jujeol">
+                <a href="">이용약관</a>
+                <a href="">개인정보처리방침</a>
+                <a href="">입점안내</a>
+                <a href="">개인정보 제공 내용</a>
+                <a href="">이벤트 및 프로모션문자(SMS) 수신 및 활용 방침</a>
+            </div>
+        </div>
+        <div class="imonthenextlevel">
+            (주)레벨13
+        </div>
+        <div class="gogaekcenter">
+            고객센터
+        </div>
+    </footer>
 </body>
 
 </html>
