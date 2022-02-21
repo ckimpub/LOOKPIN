@@ -13,7 +13,7 @@ div{
     font-family: "Noto Sans KR", sans-serif;
     
     overflow: auto;
-    
+
     vertical-align: baseline;
 }   
 
@@ -58,9 +58,18 @@ main{
     padding-top: 20px;
 }
 
+footer{
+    margin: auto 61.5px;
+    font-size: 12px;
+
+    text-align: left;
+    display: inline-block;
+}
+
 .header_nav{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .header_outer{
@@ -433,6 +442,9 @@ main{
 .flex{
     display: flex;
 }
+.space_between{
+    justify-content: space-around;
+}
 
 .item_ranking{
     display: flex;
@@ -547,25 +559,184 @@ main{
     margin-right: 20px;
 }
 
+
+
 .coordi_card_container{
-    height: 379px;
+    height: 400px;
     width: 270px;
     margin-bottom: 40px;
 }
+.coordi_card_image{
+    height: 315px;
+    width: 270px;
 
-footer{
-    margin: auto 61.5px;
+    overflow: hidden;
+}
+.coordi_like{
+    position: relative;
+    cursor: pointer;
+    bottom: 12%;
+    left: 73%;
+    color: white;
+    background-color: rgba(0,0,0,.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+}
+.coordi_like_button{
+    overflow: hidden;
+}
+.coordi_title{
+    margin-top: 12px;
+}
+.coordi_tag_container{
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.coordi_tag{
+    display: inline;
+    background-color: #f1f3f6;
+    color: #868e96;
+    padding: 1px 4px;
     font-size: 12px;
+    border-radius: 1px;
+    height: 20px;
+}
+
+.in_top_three{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4285f4;
+}
+.none_in_top_three{
+    font-size: 12px;
+    font-weight: 500;
+    color: #868e96;
+}
+.shopping_mall_ranking_category{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+    margin-bottom: 24px;
+}
+.shopping_mall_ranking_category_name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.shopping_mall_ranking_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping_mall_ranking_item_ranking{
+    margin-bottom: 6px;
+}
+.shopping_mall_ranking_item_image{
+    height: 56px;
+    width: 56px;
+    border-radius: 100px;
+    display: flex;
+}
+.shopping_mall_ranking_item_image img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.shopping_mall_ranking_item_name{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #495057;
 }
 
 .jujeoljujeol{
-    border: 1px solid rgb(248, 248, 249);
+    background-color: #f9f9fa;
+    border: 1px solid #e9ecef;
+    color: #495057;
 
     padding-left: 34px;
+    height: 33px;
 
+    text-align: center;
+
+    display: flex;
+
+    line-height: 33px;
+}
+
+.jugeol{
+    position: relative;
+}
+
+.jujeol_box{
+    border-right: 1px solid #c7ced4;
+
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#weight{
+    font-weight: 900;
+}
+
+#last{
+    border: 0;
+}
+
+.jeolju{
+    margin-left: 34px;
+    width: 1136px;
+}
+
+.imonthenextlevel{
+    margin-top: 18px;
     display: flex;
 }
 
-.jujeol{
+.level13{
+    display: block;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 1.5;
 
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+
+.info{
+    margin-left: 45px;
+
+    flex-grow: 10;
+    flex-shrink: 1;
+}
+
+.info_content{
+    line-height: 1.6;
+    margin-bottom: 8px;
+
+    font-size: 11px;
+    color: #868e96;
+}
+
+.gogaekcenter{
+    display: flex;
+    margin-top: 18px;
+}
+
+.center{
+    font-size: 11px;
+    line-height: 1.5;
+    font-weight: 700;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    color: #495057;
+}
+
+.info_link{
+    font-size: 11px;
+    font-weight: 500;
+    padding-right: 8px;
+
+    border-right: 1px solid #dee2e6;
 }
